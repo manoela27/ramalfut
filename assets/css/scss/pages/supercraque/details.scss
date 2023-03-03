@@ -1,0 +1,32 @@
+.c-details{
+    padding: 30px 0px;
+    background-color: #000;
+    border-top: 1px solid #DF9327;
+    border-bottom: 1px solid #DF9327;
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        .card-details{
+           
+        }
+        .details{
+            &_title{
+                font-size: 35px;
+                text-transform: uppercase;
+                color: #DF9327;
+                text-align: center;
+                font-family: 'bebas neue';
+            }
+            &_bottom-title{
+                font-family: 'bebas neue';
+                color: #FFF;
+                font-size: 30px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 
-//sass --watch assets/css/scss/pages/supercraque.min.scss:assets/css/supercraque.min.css
+//sass --watch assets/css/scss/pages/ramal.min.scss:assets/css/ramal.min.css
 
 $vitrine-blue: #192C53;
 $vitrine-gray: #747474;
@@ -18,11 +18,9 @@ $vitrine-gray: #747474;
 
 @import "../components/variables";
 
-@import "supercraque/home";
-@import "supercraque/king";
-@import "supercraque/details";
-@import "supercraque/chronology";
-@import "supercraque/curiosity";
+@import "ramal/home";
+@import "ramal/top";
+@import "ramal/modal";
 @import "../fonts/icons-font";
 
 @mixin md{

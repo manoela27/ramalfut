@@ -1050,112 +1050,106 @@ html .botao-lancamento:hover {
   src: url("fonts/sporty/SportyPro-Bold.otf") format("opentype");
 }
 /** PAGE PALMEIRAS **/
-.c-chronology {
-  background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/mob-cronology.png");
-  min-height: 100vh;
-  padding: 100px 0px;
-  background-size: cover;
-  background-position: center;
+.c-home {
+  padding: 20px 0px;
 }
-@media (min-width: 1200px) {
-  .c-chronology {
-    background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/bg_cronology.png");
-  }
+.c-home .title-home {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.c-chronology .box-chronology {
-  padding: 100px 10px 0px 10px;
-  align-items: center;
+.c-home .line-cards {
+  padding: 40px 0px;
+  justify-content: space-between;
+}
+.c-home .card {
+  border: 1px solid #192C53;
+  border-radius: 20px;
+  height: 320px;
+  max-width: 270px;
   position: relative;
-  margin-bottom: 42px;
 }
-@media (min-width: 1200px) {
-  .c-chronology .box-chronology {
-    margin-bottom: 0px;
-    padding: 100px 0px 0px 0px;
-  }
-}
-.c-chronology .box-chronology:last-child {
-  margin-bottom: 0px;
-}
-@media (min-width: 1200px) {
-  .c-chronology .col-content {
-    margin-left: 92px;
-  }
-}
-.c-chronology .chronology-img {
+.c-home .card-img {
   width: 100%;
-  min-height: 250px;
-}
-@media (min-width: 1200px) {
-  .c-chronology .chronology-img {
-    width: 100%;
-  }
-}
-.c-chronology .chronology-time {
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  top: 20px;
-  border-radius: 100%;
-  left: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 1px solid #FFF;
-  transform: translateX(-50%);
 }
-@media (min-width: 1200px) {
-  .c-chronology .chronology-time {
-    width: 200px;
-    height: 200px;
-  }
+.c-home .card .icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 32px;
 }
-.c-chronology .chronology-time span {
-  font-size: 50px;
-  font-weight: 500;
-  color: #FFF;
-  font-family: "bebas neue";
+.c-home .card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-@media (min-width: 1200px) {
-  .c-chronology .chronology-time span {
-    font-size: 80px;
-    font-weight: 700;
-  }
+.c-home .card .open-modal {
+  position: absolute;
+  bottom: -10%;
 }
-.c-chronology .chronology-title {
-  color: #FFF;
-  font-size: 40px;
-  font-weight: 500;
-  font-family: "bebas neue";
-  text-align: center;
-  padding-top: 42px;
+.c-home .card .open-modal .icon-open {
+  width: 60px;
+  height: 60px;
 }
-@media (min-width: 1200px) {
-  .c-chronology .chronology-title {
-    padding-top: 0px;
-    text-align: start;
-    font-size: 50px;
-  }
+
+.c-top {
+  padding: 30px 0px 10px 0px;
 }
-.c-chronology .chronology-title br {
-  display: none;
+.c-top .logo .fut-img {
+  width: 180px;
 }
-@media (min-width: 1200px) {
-  .c-chronology .chronology-title br {
-    display: block;
-  }
-}
-.c-chronology .chronology-content {
-  color: #FFF;
-  font-size: 16px;
-  font-weight: 300;
+
+.modal-toptitle {
+  font-size: 18px;
   padding-top: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1rem;
+  margin-bottom: 0;
+}
+.modal-title {
+  color: #192C53;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+}
+.modal .close {
+  position: absolute;
+  right: 20px;
+  border: none;
+  background: none;
+}
+.modal .close span {
+  font-weight: 700;
+  font-size: 22px;
+}
+.modal .table {
+  margin-top: 16px;
+}
+.modal .table thead {
+  border: 1px solid;
+}
+.modal .table thead .title-table {
+  color: #192C53;
   text-align: center;
 }
-@media (min-width: 1200px) {
-  .c-chronology .chronology-content {
-    text-align: start;
-  }
+.modal .table tbody .line {
+  border: none;
+}
+.modal .table tbody .line-one {
+  background-color: #D9D9D9;
+}
+.modal .table tbody .line-two {
+  background-color: rgba(25, 44, 83, 0.5);
+}
+.modal .table tbody .line td {
+  border-style: none;
+  text-align: center;
+  font-size: 16px;
+}
+.modal .table tbody .line .name {
+  font-weight: 600;
 }
 
 @font-face {

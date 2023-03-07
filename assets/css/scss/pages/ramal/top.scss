@@ -2,11 +2,24 @@
     @media (min-width: 1200px) { @content; }
 }
 .c-top{
-    padding: 30px 0px 10px 0px;
+    padding: 40px 0px 10px 0px;
 
     .logo{
         .fut-img{
-            width: 180px;
+            width: 150px;
+        }
+    }
+    .search{
+        .search-icon{
+            height: 50px;
+            width: 50px;
+        }
+    }
+    .box-help{
+        margin-left: 32px;
+        .help-img{
+            height: 45px;
+            width: 45px;
         }
     }
 }

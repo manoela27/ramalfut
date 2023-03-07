@@ -1054,7 +1054,7 @@ html .botao-lancamento:hover {
   padding: 20px 0px;
 }
 .c-home .title-home {
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1062,11 +1062,14 @@ html .botao-lancamento:hover {
   padding: 40px 0px;
   justify-content: space-between;
 }
+.c-home .line-cards-first {
+  padding-top: 20px;
+}
 .c-home .card {
   border: 1px solid #192C53;
   border-radius: 20px;
-  height: 320px;
-  max-width: 270px;
+  height: 300px;
+  min-width: 250px;
   position: relative;
 }
 .c-home .card-img {
@@ -1085,19 +1088,29 @@ html .botao-lancamento:hover {
   font-weight: 700;
 }
 .c-home .card .open-modal {
-  position: absolute;
-  bottom: -10%;
+  margin-top: 32px;
 }
 .c-home .card .open-modal .icon-open {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .c-top {
-  padding: 30px 0px 10px 0px;
+  padding: 40px 0px 10px 0px;
 }
 .c-top .logo .fut-img {
-  width: 180px;
+  width: 150px;
+}
+.c-top .search .search-icon {
+  height: 50px;
+  width: 50px;
+}
+.c-top .box-help {
+  margin-left: 32px;
+}
+.c-top .box-help .help-img {
+  height: 45px;
+  width: 45px;
 }
 
 .modal-toptitle {

@@ -7,20 +7,23 @@
 .c-home{
     padding: 20px 0px;
     .title-home{
-        font-size: 24px;
+        font-size: 22px;
         text-transform: uppercase;
         font-weight: 700;
     }
     .line-cards{
         padding: 40px 0px;
         justify-content: space-between;
+
+        &-first{
+            padding-top: 20px;
+        }
     }
     .card{
         border: 1px solid #192C53;
         border-radius: 20px;
-        height: 320px;
-        
-        max-width: 270px;
+        height: 300px;
+        min-width: 250px;
         position: relative;
 
         &-img{
@@ -40,11 +43,10 @@
 
         }
         .open-modal{
-            position: absolute;
-            bottom: -10%;
+            margin-top: 32px;
             .icon-open{
-                width: 60px;
-                height: 60px;
+                width: 40px;
+                height: 40px;
             }
         }
     }

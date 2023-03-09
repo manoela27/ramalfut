@@ -1,7 +1,7 @@
 (function($){
 
 	var containerdeparts = $(".slick__departs")
-
+	
 
 
 	containerdeparts.slick({

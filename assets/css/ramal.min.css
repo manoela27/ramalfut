@@ -1057,6 +1057,12 @@ html .botao-lancamento:hover {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .c-home .title-home {
+    text-align: start;
+  }
 }
 .c-home .line-cards {
   padding: 40px 0px;
@@ -1078,9 +1084,13 @@ html .botao-lancamento:hover {
   justify-content: center;
 }
 .c-home .card .icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 32px;
+}
+.c-home .card .icon-personalize {
+  width: 45px;
+  height: 45px;
 }
 .c-home .card-title {
   font-size: 18px;
@@ -1098,6 +1108,15 @@ html .botao-lancamento:hover {
 .c-top {
   padding: 40px 0px 10px 0px;
 }
+.c-top .logo {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  .c-top .logo {
+    justify-content: start;
+  }
+}
 .c-top .logo .fut-img {
   width: 150px;
 }
@@ -1107,10 +1126,35 @@ html .botao-lancamento:hover {
 }
 .c-top .box-help {
   margin-left: 32px;
+  display: none;
+}
+.c-top .box-help [data-tooltip] {
+  position: relative;
+  font-weight: bold;
+}
+.c-top .box-help [data-tooltip]:after {
+  display: none;
+  position: absolute;
+  top: -5px;
+  padding: 5px;
+  border-radius: 3px;
+  right: calc(100% + 2px);
+  content: attr(data-tooltip);
+  white-space: nowrap;
+  color: #000;
+  font-weight: 500;
+}
+.c-top .box-help [data-tooltip]:hover:after {
+  display: block;
 }
 .c-top .box-help .help-img {
   height: 45px;
   width: 45px;
+}
+@media (min-width: 1200px) {
+  .c-top .box-help {
+    display: block;
+  }
 }
 
 .modal-toptitle {

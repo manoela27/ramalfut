@@ -5,6 +5,11 @@
     padding: 40px 0px 10px 0px;
 
     .logo{
+        display: flex;
+        justify-content: center;
+        @include md{
+            justify-content: start;
+        }
         .fut-img{
             width: 150px;
         }
@@ -17,9 +22,37 @@
     }
     .box-help{
         margin-left: 32px;
+        display: none;
+
+        [data-tooltip] {
+            position: relative;
+            font-weight: bold;
+          }
+          
+          [data-tooltip]:after {
+            display: none;
+            position: absolute;
+            top: -5px;
+            padding: 5px;
+            border-radius: 3px;
+            right: calc(100% + 2px);
+            content: attr(data-tooltip);
+            white-space: nowrap;
+            color: #000;
+            font-weight: 500;
+          }
+          
+          [data-tooltip]:hover:after {
+            display: block;
+          }
+          
         .help-img{
             height: 45px;
             width: 45px;
+        }
+
+        @include md{
+            display: block;
         }
     }
 }

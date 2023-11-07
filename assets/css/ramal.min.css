@@ -1064,6 +1064,24 @@ html .botao-lancamento:hover {
     text-align: start;
   }
 }
+.c-home #search {
+  border: none;
+  width: 400px;
+  border: 1px solid #192C53;
+  border-radius: 40px;
+  margin-right: 8px;
+  height: 40px;
+  padding: 8px 20px 10px 20px;
+  font-size: 18px;
+}
+.c-home #search::placeholder {
+  color: #a3a3a3;
+  font-size: 18px;
+}
+.c-home .search-icon {
+  height: 45px;
+  width: 45px;
+}
 .c-home .line-cards {
   padding: 40px 0px;
   justify-content: space-between;
@@ -1077,6 +1095,7 @@ html .botao-lancamento:hover {
   height: 300px;
   min-width: 250px;
   position: relative;
+  margin-top: 32px;
 }
 .c-home .card-img {
   width: 100%;
